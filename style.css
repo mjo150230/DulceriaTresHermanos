@@ -1,0 +1,242 @@
+body {
+  font-family: 'Mallanna', sans-serif;
+  font-size: 1.5rem;
+}
+
+#title{
+  font-size: 1rem;
+  background: #67eaca;
+}
+
+#inventory {
+  padding: 10%;
+  background: #fef9d9;
+}
+
+.transparent {
+  opacity: 0.5;
+}
+
+.dulce {
+  width: 100%;
+  height: 650px;
+  font-size: 1000px;
+  padding: 300px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://content.active.com/Assets/Active.com+Content+Site+Digital+Assets/Kids/Galleries/Halloween+Leftovers/pinata.jpg);
+}
+
+.dulceria, .pinata-title, .etc-title {
+  padding: 10%;
+  text-align: center;
+}
+
+.inventory-img {
+	border: solid 1px black;
+	align-content: center;
+	margin-left: 50%;
+	margin-right: 50%;
+	padding: 7% 15%;
+}
+
+.dulce-tilepg {
+  background-repeat: no-repeat;
+  background-image: url(https://www.dulceriatreshermanos.com/uploads/2/1/3/1/21314958/7693275_orig.jpg);
+}
+
+.pinata-tilepg {
+  background-repeat: no-repeat;
+  background-image: url(https://www.dulceriatreshermanos.com/uploads/2/1/3/1/21314958/8644636_orig.jpg);
+}
+
+.etc-tilepg {
+  background-image: url(https://www.dulceriatreshermanos.com/uploads/2/1/3/1/21314958/9716897_orig.jpg);
+  background-repeat: no-repeat;
+}
+
+.dulce-tilepg, .pinata-tilepg, .etc-tilepg {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+
+.dulce-tilepg span, .pinata-tilepg span, .etc-tilepg span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .5;
+}
+.dulce-tilepg:hover, .pinata-tilepg:hover, .etc-tilepg:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#location {
+  padding: 10% 3%;
+  text-align: center;
+  background: #e0ffcd;
+}
+
+/* pinata html */
+
+.pinata-tile {
+  padding: 5%;
+  text-align: center;
+}
+
+/*  end of pinata html */
+
+.panel-footer {
+  font-size: 1rem;
+	align-content: center;
+  background: #CFD7DA;
+  padding: 3%;
+  color: #fff;
+}
+
+/* dulce carousel html */
+#testimonials {
+  text-align: center;
+  background: #ffe2e2;
+  padding: 5%;
+}
+
+#artesenia {
+  text-align: center;
+  background: #fcf9ec;
+  padding: 5%;
+}
+
+#chips {
+  text-align: center;
+  background: #fff593;
+  padding: 5%;
+}
+
+/* MENU CATEGORIES PAGE */
+.category-tile {
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 15px;
+}
+.category-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .5;
+}
+
+#menu-categories-title + div {
+  margin-bottom: 50px;
+}
+/* END MENU CATEGORIES PAGE */
+
+
+#contact-form-section {
+  padding: 10%;
+}
+
+.contact-title {
+  text-align: center;
+}
+
+/* Fruteria Guerrero */
+
+#fg-menu {
+  padding: 3%;
+}
+
+.fruitg {
+  background-image: url(https://wallpaperplay.com/walls/full/f/0/a/186017.jpg);
+  padding: 10%;
+  width: 100%;
+  text-align: center;
+}
+
+.dth-meet {
+  font-family: 'Fredericka the Great', cursive;
+  color: #37D9E8;
+  font-size: 6rem;
+}
+
+.meet {
+  font-family: 'Marck Script', cursive;
+  color: #fff;
+  font-size: 6rem;
+  font-weight: bold;
+}
+
+.fg-logo {
+  color: #D50B36;
+  font-family: 'Marck Script', cursive;
+  font-size: 6rem;
+  font-weight: bold;
+}
+
+.contact-title {
+  font-weight: bold;
+  font-size: 3rem;
+  padding: 1%;
+}
+
+.orderbutton {
+  background: #d93486;
+  background-image: -webkit-linear-gradient(top, #d93486, #b82b5a);
+  background-image: -moz-linear-gradient(top, #d93486, #b82b5a);
+  background-image: -ms-linear-gradient(top, #d93486, #b82b5a);
+  background-image: -o-linear-gradient(top, #d93486, #b82b5a);
+  background-image: linear-gradient(to bottom, #d93486, #b82b5a);
+  -webkit-border-radius: 14;
+  -moz-border-radius: 14;
+  border-radius: 14px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.orderbutton:hover {
+  background: #3ed6de;
+  background-image: -webkit-linear-gradient(top, #3ed6de, #3498db);
+  background-image: -moz-linear-gradient(top, #3ed6de, #3498db);
+  background-image: -ms-linear-gradient(top, #3ed6de, #3498db);
+  background-image: -o-linear-gradient(top, #3ed6de, #3498db);
+  background-image: linear-gradient(to bottom, #3ed6de, #3498db);
+  text-decoration: none;
+  color: #fff;
+}
+
+.container {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+/* etc carousel section */
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-text {
+  color: #444B49;
+}
